@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang=pt-br>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Conhecimentos HTML</title>
+    <link rel="shortcut icon" href="./brain.png" type="image/x-icon">
+</head>
+<body>
+    <h1 id="inicio">Breves conhecimentos - HTML</h1>
+
+    <hr>
+
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#inserir-texto">Inserindo Textos</a></li>
+        <ul>
+            <li><a href="#titulos">Títulos</a></li>
+            <li><a href="#paragrafos">Parágrafos</a></li>
+        </ul>
+        <li><a href="#modificando-palavras">Modificando Palavras</a></li>
+        <li><a href="#listas">Listas</a></li>
+        <li><a href="#lista-ordenada">Lista Ordenada</a></li>
+        <li><a href="#lista-nao-ordenada">Lista Não Ordenada</a></li>
+        <li><a href="#links">Links</a></li>
+        <ul>
+            <li><a href="#dica-links">Dica</a></li>
+        </ul>
+        <li><a href="#referencias">Referências</a></li>
+    </ul>
+
+    <h2 id="inserir-texto">Inserindo Textos</h2>
+    <p>A princípio é bem simples inserir textos utilizando HTML, com pouco esforço já é possível colocar
+        um título, subtítulo, parágrafos e entre outras coisas no seu texto. Vamos começar com o título,
+        veja como é fácil colocar um título na sua página.
+    </p>
+
+    <h3 id="titulos">Títulos</h3>
+    <p>
+        Para colocar um título chamativo na sua página é necessário inserir apenas a tag '< h1 >' no seu
+        código HTML e aparece um título como mágica na sua página. Ele será, é claro, um texto maior do que
+        os demais presentes.
+    </p>
+    <p>
+        Você pode inserir títulos, subtítulos e assim vai, apenas incrementando o número depois do 'h', assim
+        podemos criar um subtítulo com um '< h2 >', por exemplo.
+    </p>
+
+    <h3 id="paragrafos">Parágrafos</h3>
+    <p>
+        Para inserir um parágrafo é mais simples ainda, basta inserir a tag '< p >' com o texto da sua preferência
+        que você terá um parágrafo na sua página.
+    </p>
+
+    <h2 id="modificando-palavras">Modificando Palavras</h2>
+    <small>(<a href="#inicio">Voltar</a>)</small>
+    <p>
+        Podemos também inserir modificações nas palavras inseridas no seu texto, como você faz no seu Word
+        inserindo palavras sublinhadas, em negrito, itálico, etc. Podemos inserí-las também utilizando
+        algumas das tags HTML abaixo:
+    </p>
+    <ul>
+        <li>< u > para inserir uma palavra <u>sublinhada</u></li>
+        <li>< mark > para inserir uma palavra com um fundo estilo <mark>marca texto</mark></li>
+        <li>< i > para inserir uma palavra em <i>itálico</i></li>
+        <li>< strong > para inserir uma palavra em <strong>negrito</strong></li>
+        <li>< sub > para inserir uma palavra na parte inferior em relação as outras <sub>r</sub></li>
+        <li>< sup > para inserir uma palavra na parte superior em relação as outras <sup>r</sup> </li>
+        <li>< del > para inserir uma palavra com um risco no meio, geralmente assimilada a exclusão <del>Deletado</del> </li>
+        <li>< abbr > para inserir uma explicação para uma abreviação <abbr title="Organização das Nações Unidas">ONU</abbr> </li>
+    </ul>
+
+    <h2 id="listas">Listas</h2>
+    <small>(<a href="#inicio">Voltar</a>)</small>
+    <p>
+        A inserção de listas no HTML é bem simples, mas antes de começar a inserir, pergunte-se se você quer
+        fazer uma lista ordenada ou não ordenada. Esses dois tipos de lista tem uma tag para cada.
+        Veja a seguir a tag de cada um tipo de lista:
+    </p>
+    <h3 id="lista-ordenada">Lista Ordenada</h3>
+    <p>
+        Para inserir uma lista ordenada basta utilizar a tag '< ol >' que representará a lista ordenada e a tag
+        '< li >' que representará o conteúdo da lista. Veja abaixo como que fica o estilo da lista ordenada:
+    </p>
+    <ol>
+        <li>Lista</li>
+        <li>Ordenada</li>
+    </ol>
+    <h3 id="lista-nao-ordenada">Lista Não Ordenada</h3>
+    <p>
+        Agora para inserir uma lista ordenada utilizamos a tag '< ul >' que representa a lista não ordenada
+        e como a lista ordenada, utilizamos a tag '< li >' para representar o conteúdo da lista. Veja abaixo
+        como que fica o estilo da lista não ordenada:
+    </p>
+    <ul>
+        <li>Lista</li>
+        <li>Não Ordenada</li>
+    </ul>
+
+    <h2 id="links">Links</h2>
+    <small>(<a href="#inicio">Voltar</a>)</small>
+    <p>
+        Podemos utilizar os links para realizar diversas funções como, por exemplo:
+    </p>
+    <ul>
+        <li>Redirecionar o usuário para outro site</li>
+        <li>Redirecionar o usuário para outra página do seu site</li>
+        <li>Redirecionar o usuário para um conteúdo na mesma página do link</li>
+    </ul>
+    <p>
+        Tudo isso com a seguinte sintaxe simples, veja abaixo:
+    </p>
+    <blockquote>
+        < a href="caminho">texto link< /a >
+    </blockquote>
+    <h3 id="dica-links">Dica</h3>
+    <p>
+        Caso você queira que o redirecionamento abra uma nova janela no navegador, basta inserir o atributo
+        'target="_blank"' na sua tag '< a >'.
+    </p>
+
+    <h2 id="referencias">Referências</h2>
+    <small>(<a href="#inicio">Voltar</a>)</small>
+    <p>
+        Como referência foi utilizado o conhecimento adquirido em outros cursos juntamente com
+        o site W3Schools. Veja o link de ambos abaixo:
+    </p>
+    <ul>
+        <li><a href="https://www.w3schools.com/" target="_blank">Acesse o site W3Schools</a></li>
+        <li><a href="https://www.rocketseat.com.br/" target="_blank">Acesse o site RocketSeat</a></li>
+    </ul>
+</body>
+</html>
